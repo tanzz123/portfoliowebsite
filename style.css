@@ -1,0 +1,53 @@
+.container-text-center{
+    padding: 20rem;
+    width: 20rem;
+    height: 20rem;
+}
+.container-text-center img{
+    width: 560px;
+    height: 760px;
+}
+
+/* Navigation styles */
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align: center;
+}
+
+ul.nav li {
+    float: left;
+    
+}
+
+ul.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Hover effects */
+ul.nav li a:hover {
+    background-color: #111;
+}
+
+ul.nav li a:hover::before,
+ul.nav li a:hover::after {
+    content: "";
+    display: block;
+    height: 2px;
+    background-color: white;
+}
+
+ul.nav li a:hover::before {
+    margin-bottom: 4px;
+}
+
+ul.nav li a:hover::after {
+    margin-top: 4px;
+}
